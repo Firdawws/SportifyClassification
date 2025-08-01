@@ -31,14 +31,14 @@ Outputs: Predicted cluster label + sample song recommendations
 Backend: joblib-saved scaler & clustering model
 
 You can run using:
+
 ```bash
 streamlit run app.py
-
-
+```bash
 
 ---
-
 ## Project Structure
+
 ```bash
 📦 Spotify Song Classification
 ├── app.py
@@ -49,3 +49,4 @@ streamlit run app.py
 ├── notebooks/
 │   └── Clustering_EDA_Modeling.ipynb
 └── README.md
+---
