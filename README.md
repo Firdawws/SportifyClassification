@@ -39,14 +39,13 @@ streamlit run app.py
 ---
 ## Project Structure
 
-```bash
 📦 Spotify Song Classification
 ├── app.py
 ├── clustering_model.pkl
 ├── scaler.pkl
 ├── pca.pkl
-├── Spotify Dataset.csv
+├── Spotify.csv
 ├── notebooks/
 │   └── Clustering_EDA_Modeling.ipynb
 └── README.md
----
+
