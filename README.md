@@ -15,12 +15,14 @@ This project classifies Spotify songs into distinct musical categories using uns
 Source: Spotify Audio Features Dataset
 Features: danceability, energy, valence, tempo, acousticness, speechiness, instrumentalness, etc.
 
+----
 
 ### 🧠 Methodology
 1. Clustering Algorithms
  - K-Means Clustering
  - Hierarchical Clustering
 
+---
 
 ###  Deployment using Streamlit App
 Inputs: Audio features (via sliders/form)
@@ -28,7 +30,8 @@ Outputs: Predicted cluster label + sample song recommendations
 
 Backend: joblib-saved scaler & clustering model
 
-
+You can run using:
+```bash
 streamlit run app.py
 
 
@@ -36,6 +39,7 @@ streamlit run app.py
 ---
 
 ## Project Structure
+```bash
 📦 Spotify Song Classification
 ├── app.py
 ├── clustering_model.pkl
