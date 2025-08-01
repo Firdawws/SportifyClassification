@@ -46,6 +46,6 @@ streamlit run app.py
 ├── pca.pkl
 ├── Spotify.csv
 ├── notebooks/
-│   └── Clustering_EDA_Modeling.ipynb
+│   └── ClusteringSpotifySongsClassification.ipynb
 └── README.md
 
