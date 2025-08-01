@@ -34,10 +34,11 @@ You can run using:
 
 ```bash
 streamlit run app.py
-```bash
-
 ---
-## Project Structure
+---
+
+### Project Folder
+```bash
 
 📦 Spotify Song Classification
 ├── app.py
@@ -45,7 +46,9 @@ streamlit run app.py
 ├── scaler.pkl
 ├── pca.pkl
 ├── Spotify.csv
-├── notebooks/
+├── notebook/
 │   └── ClusteringSpotifySongsClassification.ipynb
 └── README.md
+
+
 
